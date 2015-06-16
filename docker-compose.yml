@@ -1,0 +1,11 @@
+tonic:
+  build: ./tonic
+  ports:
+    - "9000"
+
+nginx:
+  build: ./nginx
+  ports:
+    - "80:80"
+  links:
+    - tonic
