@@ -1,3 +1,15 @@
+mongodb:
+  build: ./mongodb
+  volumes:
+    - ./mongodb/data/db:/data/db
+
+qckblg:
+  build: ./qckblg
+  ports:
+    - "9000"
+  links:
+    - mongodb
+
 tonic:
   build: ./tonic
   ports:
@@ -9,3 +21,4 @@ nginx:
     - "80:80"
   links:
     - tonic
+    - qckblg
