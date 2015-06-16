@@ -1,5 +1,7 @@
 mongodb:
   build: ./mongodb
+  ports:
+    - "27017"
   volumes:
     - ./mongodb/data/db:/data/db
 
