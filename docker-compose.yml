@@ -42,5 +42,9 @@ nginx:
   ports:
     - "80:80"
   links:
-    - tonic
     - qckblg
+    - tnc
+    - trsncld
+    - hrvrd
+    - clck
+    - nfnt
