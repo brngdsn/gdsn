@@ -44,7 +44,7 @@ nginx:
   links:
     - qckblg
     - tnc
-    - trsncld
+    - trnscld
     - hrvrd
     - clck
     - nfnt
