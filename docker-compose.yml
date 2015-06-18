@@ -12,8 +12,8 @@ qckblg:
   links:
     - mongodb
 
-tonic:
-  build: ./tonic
+tnc:
+  build: ./tnc
   ports:
     - "9000"
 
