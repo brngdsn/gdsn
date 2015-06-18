@@ -17,6 +17,26 @@ tonic:
   ports:
     - "9000"
 
+trnscld:
+  build: ./trnscld
+  ports:
+    - "30000"
+
+hrvrd:
+  build: ./hrvrd
+  ports:
+    - "30000"
+
+clck:
+  build: ./clck
+  ports:
+    - "30000"
+
+nfnt:
+  build: ./nfnt
+  ports:
+    - "30000"
+
 nginx:
   build: ./nginx
   ports:
