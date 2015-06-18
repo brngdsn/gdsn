@@ -6,4 +6,4 @@ WORKDIR /home/yeoman/afep
 
 RUN git checkout frontyard
 RUN npm install
-RUN npm start
+CMD npm start
