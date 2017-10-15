@@ -1,0 +1,13 @@
+{
+  "name": "gdsn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brngdsn/gdsn",
+  "author": "brn.gdsn@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "compose": "docker-compose up",
+    "build": "docker-compose build",
+    "debug:trnscld": "docker run -p 30000:30000 -it gdsn_trnscld /bin/bash"
+  }
+}
